@@ -1,0 +1,16 @@
+<html>
+	<body>
+		<script>
+			var random;
+			random=Math.floor((Math.random()*10)+1);
+			var input;
+			input=window.prompt("Enter a number between 1 to 10.");
+			while(input!=random){
+				input=window.prompt("Enter a number between 1 to 10.");
+				if (input==random){
+					document.writeln("<h1>You are right!");
+				}
+			}
+		</script>
+	</body>
+</html>
